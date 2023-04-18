@@ -7,8 +7,10 @@ import (
 )
 
 func main (){
-	word := flag.String("word", "Abba", "word")	
-	fmt.Print(isPalindrom(*word))
+	typeOfAnimal := flag.String("type", "dog", "type")	
+	name := flag.String("name", "Abba", "name")	
+	fmt.Println(isPalindrom(*typeOfAnimal))
+	fmt.Println(isPalindrom(*name))
 
 }	
 
